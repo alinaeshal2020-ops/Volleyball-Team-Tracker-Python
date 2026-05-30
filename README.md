@@ -23,22 +23,12 @@ The code is split into manageable, modular files to separate the visual interfac
 Python comes with Tkinter pre-installed, but you will need to install Matplotlib to generate the PDF reports. Open your terminal or command prompt and run:
 ```bash
 pip install matplotlib
-2. Running the App
+
+**2. Running the App**
 Open the project folder in your IDE (like Visual Studio Code) and run main.py:
 code
 Bash
 python main.py
 (Make sure you run main.py and not team_manager.py, as the manager file only contains the background functions!)
 
-Concepts Demonstrated (Assessment Criteria)
-Computational Thinking: Breaking down a sports management system into inputs, algorithms, and outputs.
-Data Structures: Utilizing 2D lists to hold player stats in memory while the program runs.
-Decision Making: Complex if/elif/else structures for user validation and error handling.
-Iteration: Using for loops to search for specific players, delete records, and calculate highest scores.
-Modular Programming: Using def functions across multiple Python files to keep code clean and readable.
-
-Technologies Used
-Python 3 (Core Logic & File Handling)
-Tkinter (Standard GUI Library)
-Matplotlib (Data Visualization & PDF Export)
-Created for the Year 10/12 Digital Technologies Advanced Programming Project.
+Created for the Year 10 Coding Programming Project.
