@@ -17,18 +17,38 @@ The code is split into manageable, modular files to separate the visual interfac
 *   `players.txt`: The text file acting as the database to store player information permanently.
 *   `Team_Report.pdf`: Generated automatically when the user clicks "Generate PDF Graph".
 
-## How to Run the Program
+## ⚙️ How to Run the Program
 
-**1. Prerequisites**
-Python comes with Tkinter pre-installed, but you will need to install Matplotlib to generate the PDF reports. Open your terminal or command prompt and run:
+### Step 1: Open the Project
+
+- Download or clone this repository to your computer.
+- Open the entire project folder inside **Visual Studio Code** (or your preferred Python IDE).
+
+### Step 2: Install Matplotlib (Required for the PDF Report)
+
+This program generates a downloadable PDF graph and requires the **Matplotlib** library.
+
+1. Open a new terminal in VS Code:
+   - Select **Terminal → New Terminal** from the top menu.
+2. Copy and paste the following command into the terminal and press **Enter**:
+
 ```bash
 pip install matplotlib
+```
 
-**2. Running the App**
-Open the project folder in your IDE (like Visual Studio Code) and run main.py:
-code
-Bash
-python main.py
-(Make sure you run main.py and not team_manager.py, as the manager file only contains the background functions!)
+> **Note:** Depending on your Python setup, you may need to use:
+>
+> ```bash
+> python -m pip install matplotlib
+> ```
+
+### Step 3: Launch the Application
+
+1. Open the `main.py` file in your editor.
+2. Click the **Run Python File** (▶) button in the top-right corner of Visual Studio Code.
+
+> ⚠️ **Important:** Make sure you are running `main.py` and **not** `team_manager.py`.
+>
+> The `team_manager.py` file only contains the backend algorithms and data management logic. Running it directly will **not** launch the visual dashboard.
 
 Created for the Year 10 Coding Programming Project.
